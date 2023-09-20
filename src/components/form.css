@@ -1,0 +1,98 @@
+.form {
+  width: 74%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.19em;
+}
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.cardname {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+
+  > input {
+    padding: 15px 5px;
+    width: 450px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 2px solid gray;
+  }
+}
+
+.exp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.exp-date {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+}
+.exp-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  > input {
+    padding: 15px 5px;
+    font-size: 1.2rem;
+    width: 82px;
+    border-radius: 8px;
+    border: 2px solid gray;
+  }
+}
+.exp-cvv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 6px;
+  > input {
+    padding: 15px 5px;
+    font-size: 1.2rem;
+    width: 215px;
+    border-radius: 8px;
+    border: 2px solid gray;
+  }
+}
+
+.btn {
+  > button {
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+  }
+}
+
+.warning {
+  color: red;
+  font-weight: 200;
+}

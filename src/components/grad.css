@@ -1,0 +1,114 @@
+.grad {
+  width: 26%;
+  height: 100vh;
+  background-image: url(/public/Group\ 2.png);
+  background-color: black;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.19em;
+}
+
+.card1 {
+  height: 246px;
+  width: 416px;
+  background-color: #6244fa;
+  position: absolute;
+  top: 10%;
+  left: 6%;
+
+  background-image: linear-gradient(
+    58deg,
+    rgba(101, 47, 203, 1) 4%,
+    rgba(100, 70, 250, 1) 29%,
+    rgba(187, 87, 197, 1) 69%,
+    rgba(97, 139, 228, 1) 85%,
+    rgba(231, 114, 107, 1) 87%,
+    rgba(105, 19, 152, 1) 99%
+  );
+
+  color: #dfd8e3;
+  box-shadow: 4px 4px 4px 4px #00000040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 12px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  > h1 {
+    font-size: 40px;
+  }
+}
+
+.card2 {
+  height: 246px;
+  width: 416px;
+  background-color: #ffff;
+  position: absolute;
+  top: 49%;
+  left: 13%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 4px 4px 4px 4px #00000040;
+}
+
+.black {
+  height: 55px;
+  width: 100%;
+  background-color: black;
+  margin-top: 25px;
+}
+.cvv {
+  > p {
+    border: none;
+    border-radius: 6px;
+    background-color: #adb6bf;
+    color: white;
+    text-align: end;
+    width: 350px;
+    height: 42px;
+    padding: 0 8px;
+    margin-bottom: 85px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+.circleposition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  position: absolute;
+  left: 29px;
+  top: 23px;
+}
+.circle1 {
+  height: 48px;
+  width: 48px;
+  background-color: white;
+  border-radius: 50%;
+}
+.circle2 {
+  height: 23px;
+  width: 23px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid white;
+}
